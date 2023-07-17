@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 //import logo from "./logo.svg";
 import "./App.css";
 //import Form from "./components/Form";
@@ -10,14 +10,14 @@ import "./App.css";
 import Usemeno from "./components/Usemeno";
 
 const App = () => {
-  const Alert = (data) => {
-    alert(data);
-  };
+  // const Alert = (data) => {
+  //   alert(data);
+  // };
   return (
     <div>
       {" "}
       <div>
-        {/* <Childtoparent alert={Alert}/> */}
+       
         <Usemeno />
         {/* <Newapp/> */}
         {/* <Arraysmap/> */}
